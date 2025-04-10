@@ -1,0 +1,107 @@
+// iOS Design Tokens - Swift
+
+import UIKit
+
+// MARK: - Colors
+extension UIColor {
+    // Primary Colors
+    static let dynastyBlue = UIColor(red: 27/255, green: 20/255, blue: 100/255, alpha: 1)
+    static let powerPlayOrange = UIColor(red: 241/255, green: 90/255, blue: 36/255, alpha: 1)
+    static let playmakerPearl = UIColor(red: 254/255, green: 251/255, blue: 239/255, alpha: 1)
+    static let ironGrit = UIColor(red: 59/255, green: 59/255, blue: 59/255, alpha: 1)
+    static let scorecardWhite = UIColor(red: 255/255, green: 255/255, blue: 255/255, alpha: 1)
+    
+    // Secondary Colors
+    static let championshipGold = UIColor(red: 255/255, green: 190/255, blue: 11/255, alpha: 1)
+    static let gameDayBlue = UIColor(red: 58/255, green: 134/255, blue: 255/255, alpha: 1)
+    static let shotClockRed = UIColor(red: 237/255, green: 28/255, blue: 36/255, alpha: 1)
+    static let fieldGreen = UIColor(red: 87/255, green: 200/255, blue: 39/255, alpha: 1)
+    static let mvpPurple = UIColor(red: 131/255, green: 56/255, blue: 236/255, alpha: 1)
+}
+
+// MARK: - Typography
+enum FontNames {
+    static let sportyProBlack = "SportyProBlack"
+    static let dongle = "Dongle"
+    static let dongleThin = "Dongle-Light" // Assuming a light weight for "Thin"
+}
+
+struct Typography {
+    // Headers
+    static func header1() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 130.0) ?? UIFont.systemFont(ofSize: 130.0, weight: .black)
+    }
+    
+    static func header2() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 85.0) ?? UIFont.systemFont(ofSize: 85.0, weight: .black)
+    }
+    
+    static func header3() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 66.0) ?? UIFont.systemFont(ofSize: 66.0, weight: .black)
+    }
+    
+    static func header4() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 48.0) ?? UIFont.systemFont(ofSize: 48.0, weight: .black)
+    }
+    
+    static func header5() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 36.0) ?? UIFont.systemFont(ofSize: 36.0, weight: .black)
+    }
+    
+    static func header6() -> UIFont {
+        return UIFont(name: FontNames.sportyProBlack, size: 32.0) ?? UIFont.systemFont(ofSize: 32.0, weight: .black)
+    }
+    
+    // Body Regular
+    static func bodyRegular1() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 75.0) ?? UIFont.systemFont(ofSize: 75.0, weight: .regular)
+    }
+    
+    static func bodyRegular2() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 64.0) ?? UIFont.systemFont(ofSize: 64.0, weight: .regular)
+    }
+    
+    static func bodyRegular3() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 48.0) ?? UIFont.systemFont(ofSize: 48.0, weight: .regular)
+    }
+    
+    static func bodyRegular4() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 36.0) ?? UIFont.systemFont(ofSize: 36.0, weight: .regular)
+    }
+    
+    static func bodyRegular5() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 32.0) ?? UIFont.systemFont(ofSize: 32.0, weight: .regular)
+    }
+    
+    static func bodyRegular6() -> UIFont {
+        return UIFont(name: FontNames.dongle, size: 24.0) ?? UIFont.systemFont(ofSize: 24.0, weight: .regular)
+    }
+    
+    // Body Thin
+    static func bodyThin3() -> UIFont {
+        return UIFont(name: FontNames.dongleThin, size: 48.0) ?? UIFont.systemFont(ofSize: 48.0, weight: .light)
+    }
+    
+    static func bodyThin4() -> UIFont {
+        return UIFont(name: FontNames.dongleThin, size: 36.0) ?? UIFont.systemFont(ofSize: 36.0, weight: .light)
+    }
+    
+    static func bodyThin5() -> UIFont {
+        return UIFont(name: FontNames.dongleThin, size: 32.0) ?? UIFont.systemFont(ofSize: 32.0, weight: .light)
+    }
+    
+    static func bodyThin6() -> UIFont {
+        return UIFont(name: FontNames.dongleThin, size: 24.0) ?? UIFont.systemFont(ofSize: 24.0, weight: .light)
+    }
+}
+
+// Usage example:
+/*
+let headlineLabel = UILabel()
+headlineLabel.font = Typography.header1()
+headlineLabel.textColor = .dynastyBlue
+
+let bodyTextLabel = UILabel()
+bodyTextLabel.font = Typography.bodyRegular3()
+bodyTextLabel.textColor = .ironGrit
+*/
