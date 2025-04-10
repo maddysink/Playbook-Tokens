@@ -1,0 +1,160 @@
+// Android Design Tokens - Kotlin
+
+import android.graphics.Color
+
+// Colors
+object Colors {
+    // Primary Colors
+    val DYNASTY_BLUE = Color.parseColor("#1B1464")
+    val POWER_PLAY_ORANGE = Color.parseColor("#F15A24")
+    val PLAYMAKER_PEARL = Color.parseColor("#FEFBEF")
+    val IRON_GRIT = Color.parseColor("#3B3B3B")
+    val SCORECARD_WHITE = Color.parseColor("#FFFFFF")
+
+    // Secondary Colors
+    val CHAMPIONSHIP_GOLD = Color.parseColor("#FFBE0B")
+    val GAME_DAY_BLUE = Color.parseColor("#3A86FF")
+    val SHOT_CLOCK_RED = Color.parseColor("#ED1C24")
+    val FIELD_GREEN = Color.parseColor("#57C827")
+    val MVP_PURPLE = Color.parseColor("#8338EC")
+}
+
+// Typography
+object Typography {
+    // Font Families
+    const val FONT_SPORTY_PRO_BLACK = "sporty_pro_black"
+    const val FONT_DONGLE = "dongle"
+    const val FONT_DONGLE_LIGHT = "dongle_light" // Light weight for "Thin"
+
+    // Headers - sizes in sp (scaled pixels)
+    const val HEADER_1_SIZE = 130f
+    const val HEADER_2_SIZE = 85f
+    const val HEADER_3_SIZE = 66f
+    const val HEADER_4_SIZE = 48f
+    const val HEADER_5_SIZE = 36f
+    const val HEADER_6_SIZE = 32f
+
+    // Body - sizes in sp
+    const val BODY_1_SIZE = 75f
+    const val BODY_2_SIZE = 64f
+    const val BODY_3_SIZE = 48f
+    const val BODY_4_SIZE = 36f
+    const val BODY_5_SIZE = 32f
+    const val BODY_6_SIZE = 24f
+}
+
+// Implementation example for XML styles.xml:
+/*
+<style name="Header1">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">130sp</item>
+</style>
+
+<style name="Header2">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">85sp</item>
+</style>
+
+<style name="Header3">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">66sp</item>
+</style>
+
+<style name="Header4">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">48sp</item>
+</style>
+
+<style name="Header5">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">36sp</item>
+</style>
+
+<style name="Header6">
+    <item name="android:fontFamily">@font/sporty_pro_black</item>
+    <item name="android:textSize">32sp</item>
+</style>
+
+<style name="BodyRegular1">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">75sp</item>
+</style>
+
+<style name="BodyRegular2">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">64sp</item>
+</style>
+
+<style name="BodyRegular3">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">48sp</item>
+</style>
+
+<style name="BodyRegular4">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">36sp</item>
+</style>
+
+<style name="BodyRegular5">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">32sp</item>
+</style>
+
+<style name="BodyRegular6">
+    <item name="android:fontFamily">@font/dongle</item>
+    <item name="android:textSize">24sp</item>
+</style>
+
+<style name="BodyThin3">
+    <item name="android:fontFamily">@font/dongle_light</item>
+    <item name="android:textSize">48sp</item>
+</style>
+
+<style name="BodyThin4">
+    <item name="android:fontFamily">@font/dongle_light</item>
+    <item name="android:textSize">36sp</item>
+</style>
+
+<style name="BodyThin5">
+    <item name="android:fontFamily">@font/dongle_light</item>
+    <item name="android:textSize">32sp</item>
+</style>
+
+<style name="BodyThin6">
+    <item name="android:fontFamily">@font/dongle_light</item>
+    <item name="android:textSize">24sp</item>
+</style>
+*/
+
+// Usage example with Jetpack Compose:
+/*
+import androidx.compose.ui.text.font.Font
+import androidx.compose.ui.text.font.FontFamily
+import androidx.compose.ui.text.font.FontWeight
+import androidx.compose.ui.unit.sp
+
+val SportyProBlack = FontFamily(
+    Font(R.font.sporty_pro_black)
+)
+
+val Dongle = FontFamily(
+    Font(R.font.dongle, FontWeight.Normal),
+    Font(R.font.dongle_light, FontWeight.Light)
+)
+
+// In your Compose UI
+Text(
+    text = "Game Day!",
+    fontFamily = SportyProBlack,
+    fontSize = Typography.HEADER_1_SIZE.sp,
+    color = Color(Colors.DYNASTY_BLUE)
+)
+
+Text(
+    text = "Detailed match statistics",
+    fontFamily = Dongle,
+    fontSize = Typography.BODY_REGULAR_3_SIZE.sp,
+    fontWeight = FontWeight.Normal,
+    color = Color(Colors.IRON_GRIT)
+)
+*/
