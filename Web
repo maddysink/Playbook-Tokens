@@ -1,0 +1,322 @@
+{
+  "color": {
+    "Primary - Dynasty Blue": {
+      "value": "rgba(27,20,100,1)",
+      "comment": "Primary Brand Color"
+    },
+    "Primary - Power Play Orange": {
+      "value": "rgba(241,90,36,1)",
+      "comment": "Primary Brand Color"
+    },
+    "Primary - Playmaker Pearl": {
+      "value": "rgba(254,251,239,1)",
+      "comment": ""
+    },
+    "Primary - Iron Grit": {
+      "value": "rgba(59,59,59,1)",
+      "comment": ""
+    },
+    "Primary - Scorecard White": {
+      "value": "rgba(255,255,255,1)",
+      "comment": ""
+    },
+    "Secondary - Championship Gold": {
+      "value": "rgba(255,190,11,1)",
+      "comment": ""
+    },
+    "Secondary - Game Day Blue": {
+      "value": "rgba(58,134,255,1)",
+      "comment": ""
+    },
+    "Secondary - Shot Clock Red": {
+      "value": "rgba(237,28,36,1)",
+      "comment": ""
+    },
+    "Secondary - Field Green": {
+      "value": "rgba(87,200,39,1)",
+      "comment": ""
+    },
+    "Secondary - MVP Purple": {
+      "value": "rgba(131,56,236,1)",
+      "comment": ""
+    }
+  },
+  "size": {
+    "Body Regular 6": {
+      "value": "24",
+      "comment": ""
+    },
+    "Body Regular 5": {
+      "value": "32",
+      "comment": ""
+    },
+    "Body Regular 4": {
+      "value": "36",
+      "comment": ""
+    },
+    "Body Regular 3": {
+      "value": "48",
+      "comment": ""
+    },
+    "Body Regular 2": {
+      "value": "64",
+      "comment": ""
+    },
+    "Body Regular 1": {
+      "value": "75",
+      "comment": ""
+    },
+    "Body Thin 6": {
+      "value": "24",
+      "comment": ""
+    },
+    "Body Thin 5": {
+      "value": "32",
+      "comment": ""
+    },
+    "Body Thin 4": {
+      "value": "36",
+      "comment": ""
+    },
+    "Body Thin 3": {
+      "value": "48",
+      "comment": ""
+    },
+    "Header 6": {
+      "value": "32",
+      "comment": ""
+    },
+    "Header 5": {
+      "value": "36",
+      "comment": ""
+    },
+    "Header 4": {
+      "value": "48",
+      "comment": ""
+    },
+    "Header 3": {
+      "value": "66",
+      "comment": ""
+    },
+    "Header 2": {
+      "value": "85",
+      "comment": ""
+    },
+    "Header 1": {
+      "value": "130",
+      "comment": ""
+    }
+  },
+  "typography": {
+    "fonts": {
+      "Sporty Pro Black": {
+        "value": "Sporty Pro Black",
+        "comment": "Used for all headers"
+      },
+      "Dongle": {
+        "value": "Dongle",
+        "comment": "Used for all body text"
+      }
+    },
+    "Header 1": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "130px",
+        "comment": ""
+      }
+    },
+    "Header 2": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "85px",
+        "comment": ""
+      }
+    },
+    "Header 3": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "66px",
+        "comment": ""
+      }
+    },
+    "Header 4": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "48px",
+        "comment": ""
+      }
+    },
+    "Header 5": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "36px",
+        "comment": ""
+      }
+    },
+    "Header 6": {
+      "fontFamily": {
+        "value": "Sporty Pro Black",
+        "comment": ""
+      },
+      "fontSize": {
+        "value": "32px",
+        "comment": ""
+      }
+    },
+    "Body Regular 1": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "75px",
+        "comment": ""
+      }
+    },
+    "Body Regular 2": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "64px",
+        "comment": ""
+      }
+    },
+    "Body Regular 3": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "48px",
+        "comment": ""
+      }
+    },
+    "Body Regular 4": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "36px",
+        "comment": ""
+      }
+    },
+    "Body Regular 5": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "32px",
+        "comment": ""
+      }
+    },
+    "Body Regular 6": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "400",
+        "comment": "Regular weight"
+      },
+      "fontSize": {
+        "value": "24px",
+        "comment": ""
+      }
+    },
+    "Body Thin 3": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "300",
+        "comment": "Thin weight"
+      },
+      "fontSize": {
+        "value": "48px",
+        "comment": ""
+      }
+    },
+    "Body Thin 4": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "300",
+        "comment": "Thin weight"
+      },
+      "fontSize": {
+        "value": "36px",
+        "comment": ""
+      }
+    },
+    "Body Thin 5": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "300",
+        "comment": "Thin weight"
+      },
+      "fontSize": {
+        "value": "32px",
+        "comment": ""
+      }
+    },
+    "Body Thin 6": {
+      "fontFamily": {
+        "value": "Dongle",
+        "comment": ""
+      },
+      "fontWeight": {
+        "value": "300",
+        "comment": "Thin weight"
+      },
+      "fontSize": {
+        "value": "24px",
+        "comment": ""
+      }
+    }
+  }
+}
